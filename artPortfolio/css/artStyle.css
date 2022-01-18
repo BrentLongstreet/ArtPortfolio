@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Source Serif Pro";
+}
+html,
+body {
+  background-color: #dbc5cd !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  background-color: rgba(64, 63, 76, 1);
+}
+
+.navbar-nav a {
+  color: white;
+  margin: 0 20px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.navbar-toggler {
+  color: white !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler .fa {
+  color: white;
+  font-size: 30px;
+}
+
+.nav-link:hover {
+  color: #d45e7d;
+}
+.container {
+  margin: 20px;
+}
+
+.card-img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+.card {
+  background-color: #dbc5cd !important;
+
+  border: none !important;
+  outline: none !important;
+}
+.card:hover {
+  opacity: 0.4;
+}
+.modal-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagepreview {
+  width: 100%;
+  height: 100%;
+}
+
+#close-button {
+  background-color: red;
+  width: 8%;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  background-color: rgb(31, 32, 36);
+}
+
+.footer-one {
+  display: flex;
+  margin: auto;
+  height: 100px;
+  width: clamp(800px, 60vw, 1500px);
+}
+
+.copyright {
+  position: absolute;
+  margin-top: auto;
+  padding-top: 34px;
+  padding-left: 20px;
+  font-size: clamp(8px, 0.7vw, 10px);
+  color: rgb(119, 119, 119);
+}
+
+.terms {
+  position: absolute;
+  padding-top: 55px;
+  padding-left: 20px;
+  font-size: clamp(8px, 0.7vw, 10px);
+  color: rgb(211, 211, 211);
+}
+
+.contact-info {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 20px;
+}
+
+.email {
+  margin-bottom: 8px;
+  font-size: clamp(10px, 0.7vw, 11.3px);
+  color: rgb(211, 211, 211);
+}
+
+.contact-number {
+  font-size: clamp(10px, 0.7vw, 11.3px);
+  color: rgb(211, 211, 211);
+}

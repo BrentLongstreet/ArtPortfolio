@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Illustrations</title>
+    <meta name="description" content="Anne's Art Portfolio" />
+    <meta name="author" content="Brent">
+    <meta name="keywords" content="Art, Portfolio, Gallery, Drawings, Sketches, Illustrations">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/artStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(".pop").on("click", function () {
+          $(".imagepreview").attr("src", $(this).find("img").attr("src"));
+          $("#imagemodal").modal("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <section id="header">
+      <nav class="navbar navbar-expand-lg">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sketches.html">Sketches</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fanArt.html">FanArt</a>
+            </li>
+            <li class="nav-item-last">
+              <a class="nav-link" href="illustrations.html">Illustrations</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section id="gallery">
+      <div class="box">
+        <div class="container">
+          <div class="card-columns">
+            <div class="card">
+              <a href="#" class="pop">
+                <img
+                  class="card-img"
+                  src="images/illustrations/goldfish.png"
+                  alt="Card image cap"
+                />
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" class="pop">
+                <img
+                  class="card-img"
+                  src="images/illustrations/Illustration11.png"
+                  alt="Card image cap"
+                />
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" class="pop">
+                <img
+                  class="card-img"
+                  src="images/illustrations/Illustration2.png"
+                  alt="Card image cap"
+                />
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" class="pop">
+                <img
+                  class="card-img"
+                  src="images/illustrations/Illustration6.png"
+                  alt="Card image cap"
+                />
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" class="pop">
+                <img
+                  class="card-img"
+                  src="images/illustrations/pinkbgirlIllustration.png"
+                  alt="Card image cap"
+                />
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" class="pop">
+                <img
+                  class="card-img"
+                  src="images/illustrations/skaaateIllustration.png"
+                  alt="Card image cap"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+      class="modal"
+      id="imagemodal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog-centered">
+        <div class="modal-content" style="width: 60vw">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close btn btn-danger"
+              id="close-button"
+              data-dismiss="modal"
+            >
+              <span aria-hidden="true">&times;</span
+              ><span class="sr-only">Close</span>
+            </button>
+            <img src="" class="imagepreview" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <div class="footer-item footer-one">
+          <p class="copyright">	&#169 2021 FAKE WEBSITE COLLEGE</p>
+          <p class="terms">	TERMS AND CONDITIONS    PRIVACY POLICY</p>
+          <div class="contact-info">
+            <div class="email">fakewebsite@gmail.com</div>
+            <div class="contact-number">1-800-439-FAKE</div>
+          </div>
+        </div>
+        
+      </div>
+  </body>
+</html>
