@@ -1,5 +1,7 @@
 # ArtPortfolio
 
+Live site: https://tender-snyder-6dd84c.netlify.app/index.html#
+
 A art portfolio website utilizing bootstrap features.
 
 # What I learned
@@ -8,3 +10,5 @@ A art portfolio website utilizing bootstrap features.
 * Making the website mobile responsive
 * Bootstrap modals
 * Creating cookie pop-ups
+
+
