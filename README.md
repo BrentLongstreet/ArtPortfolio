@@ -11,4 +11,4 @@ A art portfolio website utilizing bootstrap features.
 * Bootstrap modals
 * Creating cookie pop-ups
 
-
+![preview](https://user-images.githubusercontent.com/70178454/152665834-3a00ad56-df07-47a3-9fec-b16d7c487736.PNG)
